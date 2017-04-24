@@ -1,0 +1,20 @@
+﻿{
+  "name": "day7challenge",
+  "version": "1.0.0",
+  "description": "100 days css challenge | Day 7",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "scss",
+    "css"
+  ],
+  "author": "Reggie01",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
