@@ -64,11 +64,27 @@
     line-height: 1.5;
     text-align: center;
   }
-    
-  .header-list{
+  
+  input[type="text"] {
+   position: absolute;
+   width: 200px;
+   border-radius: 30px;
+   opacity: 0;
+   padding: 5px 10px;
+   margin-left: 30px;   
+   outline: 0;
+  }
+  
+  .header-list {
     box-sizing: border-box;
     padding-left: 10px;
     text-align: left;
+    transition: all .5s linear;
+    cursor: pointer;
+    
+    &:hover {
+      color: #fff;
+    }
   }
   
   .header-title {
@@ -80,8 +96,60 @@
     box-sizing: border-box;
     padding-right: 10px;
     text-align: right;
+    cursor: pointer;
+    transition: all .5s linear;
+    
+    &:hover {
+      color: #fff;     
+    }
   }
 }
+
+.main-content {
+  font-family: 'Lato', sans-serif;
+  color: rgba(0,0,0,.7);
+  font-size: 18px;
+  
+  .list-container {
+    padding-left: 20px;
+    
+    &:before {
+      position: relative;
+      left: 7px;
+      content: "";
+      border-left: 1px solid rgba(0,0,0,.7);
+      height: 20px;
+    }
+    
+    &:after {
+      position: relative;
+      top: -40px;
+      left: 7px;
+      content: "";
+      border-left: 1px solid rgba(0,0,0,.7);
+      height: 60px;
+    }
+  }
+  
+  .list-time {
+    
+    .fa {
+      color: #a0ccdf;
+      padding-right: 5px;
+    }
+  }
+  
+  .list-item {
+    padding-left: 20px;
+  }
+  
+  span {
+    font-weight: 700;
+  }
+}
+
+    
+ 
 
 
 
